@@ -32,7 +32,7 @@ h2 {
 a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  color: #6B72E1;
+  color: #ff8a8a;
   font-weight: 600;
   font-size: 16px;
 }
@@ -63,15 +63,16 @@ a {
 
 .card-white {
   background-color: rgb(255, 255, 255);
-  padding: 40px;
-  box-shadow: 0px 10px 30px #494949;
-  border-radius: 4px;
-  margin: 20px 0px;
+  padding: 10px;
+  box-shadow: 0px 10px 30px #3a3a3a;
+  border-radius: 20px;
+  margin: 30px;
   text-align: center;
 }
 
 .img-circle {
   border-radius: 50%;
+  box-shadow: 0px 5px 10px #3a3a3a;
 }
 
 .list-inline {
@@ -85,15 +86,10 @@ a {
 }
 
 .list-inline i {
-  font-size: 50px;
+  font-size: 40px;
   color: rgb(230, 230, 230);
 }
 
 .list-inline i:hover {
   color: #ff8a8a;
-}
-
-/* Design adjustments using id (1% design remaining) */
-#introduction p {
-  margin-bottom: 40px;
 }
